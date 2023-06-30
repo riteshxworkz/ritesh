@@ -1,0 +1,122 @@
+Answers 
+1)   29
+2)   20
+3)   100
+4)   63
+5)   43
+6)   k
+7)   p
+8)   FR
+9)   bccab
+10)  GOV
+11)  2
+12)  30
+13)  Window
+14)  Sun
+15)  BE
+
+
+
+
+
+
+
+
+
+                                                                     JAVA TEST  ANSWERS
+																					
+																					
+1)           java and javc are commands ,The javac command is used to compile Java programs, it takes java file as input and produces bytecode.
+
+2)           JDK = java develeopment kit
+             JRE= java runtime environment
+             JVM= java virtual machine
+			 
+			 
+
+3)           size is static cannot change
+
+4)          class is blueprint of object
+
+5)    ARRAY ;
+            a large collection of things, especially one that is impressive and is seen by other people.
+			
+6)          java file contains your Java source code while a class file contains the Java bytecode produced by the Java compiler
+
+7)         6
+
+8)           method signature: 
+                            the structure of a method that is designed by the programmer.
+							
+9)            Java is a programming language and computing platform or java is an object oriented programming language.
+
+10)           variable a characteristic that can be measured and that can assume different values.
+                types of variable are 
+				1)simple variable 
+				2)static variable
+				3)instance variable                 ,
+				
+11)          variable declared in class is known as class variable.
+
+12)       dataypes ; a particular kind of data item, as defined by the values it can take, the programming language used, or the operations that can be performed on it.
+                              or 
+							  it defines value of data.
+
+
+                     Types of datatypes 
+                            1)primitive datatypes
+							2)non-primitive datatypes
+							
+							
+							
+13)        features of java   
+                 1.java is object oriented type programming  language
+				 2.java contains variables ,datatypes,,,,,,,,
+                 3.Platform Independent
+                 4.Portable
+                 5. Robust
+                 6. Secure
+                 7. Interpreted
+                 8. Multi-Threaded
+
+14)             Types of array in java 
+                       1)Single-Dimensional Array.
+                       2)Multi-Dimensional Array.
+15)														
+16)            it is an statement 
+	
+17)            it is check equality 
+
+18)            dot operator is used to fetch address
+
+19)            object class are basics class of all object
+
+20)		 java keywords are 
+                      variables, 
+					  object, 
+					  class, 
+					  programs, 
+					  operators, 
+					  swith, 
+					  for-loop, 
+					  inheritance, 
+					  array,           
+                      int, 
+					  float,
+					  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+			
+																					
