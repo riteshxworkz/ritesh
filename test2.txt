@@ -1,0 +1,130 @@
+                                                                       
+																	   
+																	   
+																	   Aptitude Test
+			     
+				 1)Brother
+				 2)grandfather
+				 3)cousins
+				 4)son
+				 5)son
+				 6)x/A *Y
+				 7)Q
+				 8)Sister in law 
+				 9)S
+				10)FATHER
+				11)NORTH
+				12)NORTH-EAST
+				13)SOUTH
+				14)SOUTH-EAST
+				
+				
+				                                                         
+																		 
+																	JAVA TEST
+			
+			
+			1)  int cannot be converted to boolean
+			2)  10,110
+			3)  int cannot be converted to boolean
+			4)  The main() method is declared static so that JVM can call it without creating an instance of the class containing the main() method.
+			5)   class temp
+			6)       
+                                class temp
+                                        {
+	                               public static void main (string[] args)
+	                                      {
+		                                 int x=("10,45,7,9,2")
+		                                System.out.println("2,9,7,45,10");
+		
+	                                          }
+                                      }
+   			
+			
+			  7)         class temp                     {
+	                   public static void main(String[] args)
+	                           {
+		                      int i ans=2,4,6;
+		                          if(ans=4,7)
+			                     System.out.print("2,4,6");
+                             		else
+			                       System.out.print("4,7");
+		
+
+	                              }
+                                            }
+			              
+						  
+						  
+						  
+						  
+						  
+						  
+						  
+			  8)  Done
+			  9)      this keyword is used to refer to the current object, i.e. through which the method is called 
+			          this() is used to call one constructor from the other of in same class
+			  10)  class opr
+                    {
+	                   public static void main(String[] args)
+	                           {
+		                      int i ans=2,4,6;
+		                          if(ans=4,7)
+			                     System.out.print("2,4,6");
+                             		else
+			                       System.out.print("4,7");
+		
+
+	                              }
+                                            }
+                  
+			  
+			11)      public class cross {
+                    public static void main(String[] args) {
+                         // size of cross, use odd number
+                           int size = 5;
+
+                          for (int i = 0; i < size; i++) {
+                          for (int j = 0; j < size; j++) {
+                          if (i==j || i+j==size-1) {
+                          System.out.print("*");
+                              }
+							  else 
+							  {
+                          System.out.print(" ");
+                               }
+											   
+                               }
+                           System.out.println();
+                               }
+                              }
+ 			
+			
+			12)  public class squarePattern {
+                 public static void main(String[] args) {
+
+                     // size of the square
+                       int size = 5;
+                       // outer loop
+                        for (int i = 0; i < size; i++) {
+                            // inner loop
+                        for (int j = 0; j < size; j++) {
+                           System.out.print("*");
+                                    }
+                               System.out.println();
+                                    }
+                                    }
+                                    }
+			
+			
+		
+			
+			
+			
+			
+			
+			
+			
+			
+		
+			
