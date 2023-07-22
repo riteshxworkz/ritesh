@@ -1,0 +1,292 @@
+
+
+
+                                                                          java test (22-07-2023)
+
+    1)   11,34
+    2)   ERROR
+    3)   ERROR
+    4)   200
+    5)
+    6)      Method parameter in java: 
+                            variables defined in the method declaration after the method name, inside the parentheses. 
+							This includes primitive types such as int, float, boolean, etc, and 
+							non-primitive or object types such as an array, String, etc. 
+							You can pass values(Argument) to the method parameters, at the method call
+                                   
+                       
+
+
+     7)            Compile-time polymorphism is achieved through method overloading. Method Overloading says you can have more than one function with the same name in 
+              one class having a different prototype.       
+                    Example 
+					       The first add method takes two arguments (a and b), and it returns the sum of the two numbers added together. 
+						   In contrast, the second add method takes three arguments (a, b, and c), 
+						   and it returns the sum of the three numbers added together
+          
+               public class MethodOverloading {
+	
+	           // 1 parameter
+	             void show(int num1)
+	               {
+		     System.out.println("number 1 : " + num1);
+	                   }
+
+	                // 2 parameter
+	             void show(int num1, int num2)
+	              {
+		     System.out.println("number 1 : " + num1
+						+ " number 2 : " + num2);
+	                 }
+
+	                 public static void main(String[] args)
+                  	{
+		         MethodOverloading obj = new MethodOverloading();
+	
+		            // 1st show function
+		          obj.show(3);
+	
+		           // 2nd show function
+		                     obj.show(4, 5);
+                         	}
+                             }
+
+
+
+
+
+
+   8)        Varargs is a short name for variable arguments. .
+                In Java, an argument of a method can accept arbitrary number of values. 
+				This argument that can accept variable number of values is called varargs. 
+				The syntax for implementing varargs is as follows: accessModifier methodName(datatype… arg) { // method body }
+			
+
+   9)    Package is used to put all our related classes into one specified Folder for a better understanding 
+	          whereas import is used to import(get) the needed or the dependent classes to run our application/class.  
+
+         Types of import are 
+           1)single type import 
+           2)on-demand type input
+		   
+	    1.Single Type Import: "import type_name;" - It tells JVM to load the definition of a single type immediately from the specified package.
+
+        2. On-Demand Type Import: "import package_name.*;" - It tells JVM to search the specified package for any missing type when it is needed.
+
+   10)     Constructor chaining ;
+                           Constructor chaining is the process of calling one constructor from another constructor with respect to current object. 
+						   
+						    Constructor chaining can be done in two ways:
+                1) within same class 							
+                2)from base class
+
+            1)Within same class: It can be done using this() keyword for constructors in the same class
+            2)From base class: by using super() keyword to call the constructor from the base class.
+               
+			   
+			   
+			   
+			   Example program
+			   " Java program to illustrate Constructor Chaining  within same class Using this() keyword "
+class Temp
+{
+	Temp()
+	{
+		this(5);
+		System.out.println("The Default constructor");
+	}
+
+	Temp(int x)
+	{
+		this(5, 15);
+		System.out.println(x);
+	}
+
+	Temp(int x, int y)
+	{
+		System.out.println(x * y);
+	}
+
+	public static void main(String args[])
+	{
+		new Temp();
+	}
+}
+
+
+
+
+   11)       fibonacci sequence using recursion
+                               
+	static void Fibonacci(int N)
+	{
+		int num1 = 0, num2 = 1;
+
+		int counter = 0;
+		{
+			System.out.print(num1 + " ");
+
+			// Swap
+			int num3 = num2 + num1;
+			num1 = num2;
+			num2 = num3;
+			counter = counter + 1;
+		}
+	}
+
+	public static void main(String args[])
+	{
+		int N = 10;
+
+		Fibonacci(N);
+	}
+}
+
+
+   12) how we check if a list of intergers contains only add numbers in java 
+                                        the traverse through the list once and check whether each integer is completely divided by two or not. 
+
+   13)   java program that checks if two arrays contains same elements
+
+import java.util.Arrays;
+
+public class CheckArraysEqual {
+	public static void main(String[] args)
+	{
+		// Initializing the first array
+		int a[] = { 30, 25, 40 };
+
+		// Initializing the second array
+		int b[] = { 30, 25, 40 };
+		boolean result = Arrays.equals(a, b);
+
+		if (result == true) {
+			// Print the result
+			System.out.println("Two arrays are equal");
+		}
+		else {
+			System.out.println("Two arrays are not equal");
+		}
+	}
+}
+
+
+
+
+
+
+
+
+    14)           An enumeration (enum for short) in Java is a special data type which contains a set of predefined constants. 
+	                 we use an enum when dealing with values that aren't required to change, like days of the week, seasons of the year, colors, 
+	
+	
+	
+	15)          happening inside jvm when you create an object ?
+	                     "When an object from the MyObject class is created for the first time, the JVM searches the file system for the definition of the class,"
+
+	
+	
+	16)       Members declared in the class, along with all members (except constructors and finalizers) 
+	             declared in all classes in its inheritance hierarchy.
+				 
+	              The 16 Types of JAVA Members
+			         Given a class in java containing public,private & protected fields. Get/list/print all fields of class using class Class. 
+					 getDeclaredFields() of Class to retrieve all data members.	
+					 
+					 
+					 
+					 
+	                                                           
+				 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
+											 
